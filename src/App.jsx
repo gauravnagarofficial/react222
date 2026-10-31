@@ -1,8 +1,17 @@
 function App() {
+
+  function sayHello() {
+    alert("Hello Gaurav!");
+  }
+
   return (
     <div>
-      <h1>Hello World!</h1>
-      <h2>My First React Project</h2>
+      <h1>Event Handling Example</h1>
+
+      <button onClick={sayHello}>
+        Click Me
+      </button>
+
     </div>
   );
 }
